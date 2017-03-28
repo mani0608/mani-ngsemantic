@@ -65,6 +65,11 @@
     "rollup": "^0.41.4",
     "rollup-plugin-commonjs": "^8.0.0",
     "rollup-plugin-node-resolve": "^2.0.0",
-    "rollup-plugin-uglify": "^1.0.1"
+    "rollup-plugin-uglify": "^1.0.1",
+	"gulp-concat": "^2.6.1",
+	"gulp-inline-ng2-template": "^4.0.0",
+	"gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+	"gulp-uglify": "^2.0.1"
   }
 }

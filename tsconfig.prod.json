@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "pretty": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitUseStrict": false,
+    "noFallthroughCasesInSwitch": true,
+    "lib":["es6","dom"],
+    "outDir": "./dist/",
+    "rootDir":"."
+  },
+  "exclude": [
+    "node_modules",
+    "dist", 
+    "app/main.ts",
+	"typings"
+  ],
+  "angularCompilerOptions": {
+   "genDir": "",
+   "skipMetadataEmit" : false
+ }
+}
